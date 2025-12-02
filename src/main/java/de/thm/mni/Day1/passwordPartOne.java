@@ -1,7 +1,8 @@
 package de.thm.mni.Day1;
 
 public class passwordPartOne {
-    public int passwordOne(String[] werte , int currentPos, int count){
+    public int passwordOne(String[] werte , int currentPos){
+        int count= 0;
         for (String s : werte) {
             String direction = s.substring(0, 1);
             int steps = Integer.parseInt(s.substring(1));

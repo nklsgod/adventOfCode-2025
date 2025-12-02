@@ -12,10 +12,10 @@ public class Day1 {
         int currentPos = 50;
         int maxPos = 99;
         int minPos = 0;
-        int count= 0;
 
-        count = pw.passwordOne(werte,currentPos,count); //Day 1 Part 1
-        count = pwTwo.passwordTwo(werte,currentPos,count); //Day 1 Part 2
+
+        int result = pw.passwordOne(werte,currentPos); //Day 1 Part 1
+        int result2 = pwTwo.passwordTwo(werte,currentPos); //Day 1 Part 2
 
     }
 }
