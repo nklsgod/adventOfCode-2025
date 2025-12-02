@@ -20,7 +20,7 @@ public class Main {
                 steps = steps % 100;
             }
             if (direction.equals("R")) {
-                if (currentPos + steps < 99) {
+                if (currentPos + steps < 100) {
                     currentPos += steps;
                 } else {
                     currentPos += steps;
