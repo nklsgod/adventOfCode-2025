@@ -1,4 +1,4 @@
-package de.thm.mni;
+package de.thm.mni.Day1;
 
 import java.io.IOException;
 import java.nio.file.Files;
